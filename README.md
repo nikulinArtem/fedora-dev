@@ -108,9 +108,7 @@
 
         а) Перед установкой необходимо установить Docker Engine (инструкция выше)
 
-        b) Скачать свежий rpm-пакет:
-
-        https://desktop.docker.com/linux/main/amd64/docker-desktop-4.11.0-x86_64.rpm?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-linux-amd64
+        b) [Скачать свежий rpm-пакет](https://desktop.docker.com/linux/main/amd64/docker-desktop-4.11.0-x86_64.rpm?utm_source=docker&utm_medium=webreferral&utm_campaign=docs-driven-download-linux-amd64)
 
         c) Установить по команде:
 
