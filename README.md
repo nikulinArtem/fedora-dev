@@ -4,24 +4,29 @@
 
 Подготовка системы после начальной установки:
 
-#1 Ускоряем DNF: 
+#1 Ускоряем DNF:
 
-    $ sudo nano /etc/dnf/dnf.conf
-    
-    И добавляем эти параметры:
+```php
+$ sudo nano /etc/dnf/dnf.conf
+```
 
-    skip_if_unavailable=True
-    fastestmirror=True
-    max_parallel_downloads=10
-    defaultyes=True
-    keepcache=True
+И добавляем эти параметры:
 
-    Чтобы сохранить изменения: Ctrl+O — Enter — Ctrl+X
+```
+skip_if_unavailable=True
+fastestmirror=True
+max_parallel_downloads=10
+defaultyes=True
+keepcache=True
+```
 
-    $ sudo dnf autoremove
-    $ sudo dnf clean all
+Чтобы сохранить изменения: Ctrl+O — Enter — Ctrl+X
 
-#2 Обновляем систему и пакеты до актуальной версии:
+```
+$ sudo dnf autoremove
+$ sudo dnf clean all
+```
+## 2 Обновляем систему и пакеты до актуальной версии:
 
     $ sudo dnf upgrade --refresh
 
